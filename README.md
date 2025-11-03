@@ -34,6 +34,16 @@ For the Inverter board, two sub-modules are assumed:
 1. Control and Driver board: interface between the supervisory control board and power switch (IGBT's/Mosfet's). The driver board needs to generate the PWM signals based on a reference from the supervisor.
 2. Power circuit: power circuit of the inverter
 
+# Who are we making this for?
+Our ideal customer profile is:
+A “solar as a service” provider. Responsible for through life maintenance. Because:
+1. They are able to buy WattWells via individual customer orders.
+2. Their interests are aligned with selling as many systems as possible, as well as being able to maintain the systems at low cost. Repair and re-use are essential.
+3. They are regularly buying inverter systems.
+4. They are likely to be a relatively small company, maybe 10-50 people, with big buying power via their customers.
+
+We are also interested in serving other customers who want an inverter for life; we'd love to hear from you if you fit that description! 
+
 # Expected functionalities
 
 - Being able (and allowed) to be connected to the European grid
