@@ -11262,45 +11262,6 @@
           },
           {
             "LibraryName": "Resistor",
-            "Top": 14,
-            "Left": 49,
-            "Angle": 90,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "R1",
-            "ID": "72cbfda4-d777-44a7-a0d8-79c58cd37345",
-            "Parameters": {
-              "Value": "20m",
-              "Name": "R1"
-            },
-            "EnabledScopes": [
-              "Voltage",
-              "Current"
-            ],
-            "ParametersDisplayAttributes": {
-              "Value": {
-                "IsVisible": true,
-                "Suffix": "\u03A9",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Resistor",
             "Top": 4,
             "Left": 41,
             "Angle": 0,
@@ -11708,17 +11669,6 @@
           {
             "Segments": [
               {
-                "StartX": 52,
-                "StartY": 11,
-                "EndX": 52,
-                "EndY": 12
-              }
-            ],
-            "Name": "C8"
-          },
-          {
-            "Segments": [
-              {
                 "StartX": 40,
                 "StartY": 5,
                 "EndX": 41,
@@ -11742,15 +11692,15 @@
                 "EndY": 5
               },
               {
-                "StartX": 52,
-                "StartY": 5,
-                "EndX": 52,
-                "EndY": 4
-              },
-              {
                 "StartX": 66,
                 "StartY": 8,
                 "EndX": 66,
+                "EndY": 4
+              },
+              {
+                "StartX": 47,
+                "StartY": 4,
+                "EndX": 57,
                 "EndY": 4
               },
               {
@@ -11758,21 +11708,9 @@
                 "StartY": 4,
                 "EndX": 66,
                 "EndY": 4
-              },
-              {
-                "StartX": 47,
-                "StartY": 4,
-                "EndX": 52,
-                "EndY": 4
-              },
-              {
-                "StartX": 52,
-                "StartY": 4,
-                "EndX": 57,
-                "EndY": 4
               }
             ],
-            "Name": "C23"
+            "Name": "C24"
           },
           {
             "Segments": [
@@ -11783,19 +11721,13 @@
                 "EndY": 18
               },
               {
-                "StartX": 50,
-                "StartY": 18,
-                "EndX": 52,
-                "EndY": 18
-              },
-              {
                 "StartX": 66,
                 "StartY": 14,
                 "EndX": 66,
                 "EndY": 18
               },
               {
-                "StartX": 52,
+                "StartX": 50,
                 "StartY": 18,
                 "EndX": 57,
                 "EndY": 18
