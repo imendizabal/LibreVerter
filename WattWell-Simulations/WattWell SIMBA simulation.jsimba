@@ -20484,22 +20484,142 @@
             }
           },
           {
-            "LibraryName": "WattWell DAB OM Tx",
+            "LibraryName": "Inductor",
+            "Top": -11,
+            "Left": 27,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": true,
+            "Name": "L1",
+            "ID": "9d8e3326-55e9-4024-9e3a-a5c0ddadac7e",
+            "Parameters": {
+              "Iinit": "0",
+              "Name": "L1",
+              "Value": "0.450u"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Iinit": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "H",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Ideal Transformer, 2 Winding",
+            "Top": -9,
+            "Left": 34,
+            "Angle": 270,
+            "HF": false,
+            "VF": false,
+            "Disabled": true,
+            "Name": "TX1",
+            "ID": "8ff372a3-5ac3-4bd6-b229-c8e512dcfd1f",
+            "Parameters": {
+              "Name": "TX1",
+              "Ratio": "8.75"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Ratio": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 0",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Differential Voltage Meter",
+            "Top": -5,
+            "Left": 30,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": true,
+            "Name": "V2",
+            "ID": "43a7be7a-759c-4b3d-b312-a8b6d796c0f5",
+            "Parameters": {
+              "Name": "V2",
+              "SamplingTime": "none"
+            },
+            "EnabledScopes": [
+              "Voltage"
+            ],
+            "ParametersDisplayAttributes": {
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 2,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "WattWell DAB OM Tx ETD",
             "Top": 3,
             "Left": 33,
             "Angle": 0,
             "HF": false,
             "VF": false,
             "Disabled": false,
-            "Name": "Sc1",
-            "ID": "fc83bfe8-39b8-46e5-b839-96856d4a1dd5",
+            "Name": "Sc2",
+            "ID": "0d5c5aeb-5ba2-4ff8-bdf6-9a33f19f3239",
             "Parameters": {
-              "Name": "Sc1",
-              "DefinitionName": "WattWell DAB OM Tx"
+              "Name": "Sc2",
+              "DefinitionName": "WattWell DAB OM Tx ETD"
             },
             "EnabledScopes": [],
             "SubcircuitDefinition": {
-              "Id": "efb95c1a-e8d8-9fc5-6814-f8ceedc76a89",
+              "Id": "995dce03-7069-ae28-6c11-230b95f7ce71",
               "Devices": [
                 {
                   "LibraryName": "Inductor",
@@ -20510,11 +20630,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Leakage inductance",
-                  "ID": "d8c7e7d0-4312-e4c7-6ad0-4b8cf932cec1",
+                  "ID": "acdad50b-d6f3-c3ea-3892-6a84484da1a5",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Leakage inductance",
-                    "Value": "0.000000371167"
+                    "Value": "0.000000432957"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20556,15 +20676,12 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary",
-                  "ID": "58dc0800-7420-da3c-7c43-0dcef623102c",
+                  "ID": "8cf144cf-3218-9f0e-4697-89081e33d8c5",
                   "Parameters": {
                     "Name": "primary",
-                    "NumberOfTurns": "4.000000000000"
+                    "NumberOfTurns": "3.000000000000"
                   },
-                  "EnabledScopes": [
-                    "voltage",
-                    "current"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "Name": {
                       "IsVisible": true,
@@ -20595,7 +20712,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Output",
-                  "ID": "0a697b0f-6bea-f09f-5258-21d1808b3155",
+                  "ID": "348906ff-b3ba-96b7-d862-a9a42a194a36",
                   "Parameters": {
                     "Name": "primary Output"
                   },
@@ -20621,7 +20738,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Input",
-                  "ID": "f0446866-6e27-e8f9-f691-2aabd5412276",
+                  "ID": "d47248d3-eac4-016b-da64-e88503bad4e1",
                   "Parameters": {
                     "Name": "primary Input"
                   },
@@ -20647,10 +20764,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary AC resistance",
-                  "ID": "d5f0ba00-7dac-6935-8917-592756f2df24",
+                  "ID": "a694c018-8a46-1450-cae0-86daec0c45cf",
                   "Parameters": {
                     "Name": "primary AC resistance",
-                    "Value": "0.001580746144"
+                    "Value": "0.000625940872"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20683,11 +20800,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 0",
-                  "ID": "0a1e7297-e252-3528-d295-de2b9f2367e5",
+                  "ID": "3534bab1-f3fa-e281-726d-d1b14036704b",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Ladder element 0",
-                    "Value": "0.000000005323"
+                    "Value": "0.000000008170"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20729,10 +20846,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 0",
-                  "ID": "6d21eff3-cf45-8320-3f52-c37e5b087d5c",
+                  "ID": "1ca4bf02-8085-c598-e6ff-827284497419",
                   "Parameters": {
                     "Name": "primary Ladder element 0",
-                    "Value": "0.047340475483"
+                    "Value": "0.002600267308"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20765,11 +20882,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 2",
-                  "ID": "099fce58-4da7-73b8-18d4-e77c177b5e1b",
+                  "ID": "43982369-eeb6-3021-6314-cf6d3dc9e72c",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Ladder element 2",
-                    "Value": "0.000999942344"
+                    "Value": "0.001003623636"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20811,10 +20928,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 2",
-                  "ID": "28f30733-10c6-1f14-561a-23b25de90c35",
+                  "ID": "bb00d5eb-f7ae-d213-3bae-e81abdaeb9e5",
                   "Parameters": {
                     "Name": "primary Ladder element 2",
-                    "Value": "0.047340475483"
+                    "Value": "0.002599923632"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20847,11 +20964,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 4",
-                  "ID": "fea05fff-862f-11fe-e4f4-548f1a6b7fd9",
+                  "ID": "23069b06-4bc5-0365-a2c8-ef76fe9db929",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Ladder element 4",
-                    "Value": "0.000999951637"
+                    "Value": "0.001002703418"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20893,10 +21010,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 4",
-                  "ID": "e8f73aa5-6214-9d96-72a0-a118eb86d2cd",
+                  "ID": "3e0e7341-4322-1d92-2734-5a4cf61466d0",
                   "Parameters": {
                     "Name": "primary Ladder element 4",
-                    "Value": "0.047340475923"
+                    "Value": "0.002599339212"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20929,11 +21046,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 6",
-                  "ID": "0150ea29-26a6-b4df-6589-3d0caf66669b",
+                  "ID": "70ffe2df-f7ef-8738-e7d7-ae4ea4031ee7",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Ladder element 6",
-                    "Value": "0.000999973606"
+                    "Value": "0.001001410774"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -20975,10 +21092,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 6",
-                  "ID": "3362cc89-fa83-b304-44d0-4065bdb305cb",
+                  "ID": "b5cc799f-138c-50cf-c829-8ba68b23b893",
                   "Parameters": {
                     "Name": "primary Ladder element 6",
-                    "Value": "0.047340476424"
+                    "Value": "0.002598781071"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21011,11 +21128,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 8",
-                  "ID": "dbbe0ec9-6b36-afe7-5898-4747a18ef97c",
+                  "ID": "d0f53522-7c9e-0a52-a92b-0175d70af3d3",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "primary Ladder element 8",
-                    "Value": "0.000999992568"
+                    "Value": "0.001000387700"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21057,10 +21174,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "primary Ladder element 8",
-                  "ID": "c5b9768e-9efc-5183-f5ea-a6fa49f13d65",
+                  "ID": "6fd55f5f-7802-be13-f4c5-c0564da28056",
                   "Parameters": {
                     "Name": "primary Ladder element 8",
-                    "Value": "0.047340476754"
+                    "Value": "0.002598459423"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21093,15 +21210,12 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary",
-                  "ID": "77a5c0a2-eb15-978b-93b0-1babbb0ee1dc",
+                  "ID": "c2cbb16d-b4d8-8397-3cff-6339b2b1c038",
                   "Parameters": {
                     "Name": "secondary",
-                    "NumberOfTurns": "35.000000000000"
+                    "NumberOfTurns": "26.000000000000"
                   },
-                  "EnabledScopes": [
-                    "voltage",
-                    "current"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "Name": {
                       "IsVisible": true,
@@ -21132,7 +21246,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Input",
-                  "ID": "c97109ce-659c-2183-4a12-27a94616a9b8",
+                  "ID": "0a62e6e9-797c-8f3f-b65c-ab396bc1e483",
                   "Parameters": {
                     "Name": "secondary Input"
                   },
@@ -21158,7 +21272,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Output",
-                  "ID": "a2bb0b61-b57d-0988-466a-237065d0db47",
+                  "ID": "f7d82cc8-8d49-1fb9-0b42-49af44940e88",
                   "Parameters": {
                     "Name": "secondary Output"
                   },
@@ -21184,10 +21298,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary AC resistance",
-                  "ID": "acf1538d-ce69-1c70-19d3-1030f539a882",
+                  "ID": "f8fa8488-bdfe-487b-8229-bd08f4f4728f",
                   "Parameters": {
                     "Name": "secondary AC resistance",
-                    "Value": "0.123563937907"
+                    "Value": "0.012306585116"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21220,11 +21334,11 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 0",
-                  "ID": "cfb1017b-d5f9-a4dd-12f8-17b9f7d6d02a",
+                  "ID": "86fc2a0b-7681-01fe-a0ed-a752d9f23426",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "secondary Ladder element 0",
-                    "Value": "0.000000099993"
+                    "Value": "0.000000100000"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21266,10 +21380,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 0",
-                  "ID": "0f1701b0-76e0-913e-e08b-e8f1c199dbac",
+                  "ID": "b3ca273b-38e2-0b7b-f641-64b86152090f",
                   "Parameters": {
                     "Name": "secondary Ladder element 0",
-                    "Value": "0.100000000040"
+                    "Value": "0.099999997963"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21302,7 +21416,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 2",
-                  "ID": "e529a614-f4d3-bc06-aca8-4bdda492e3a9",
+                  "ID": "cefde5eb-d416-745a-096e-1d783ad5d383",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "secondary Ladder element 2",
@@ -21348,10 +21462,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 2",
-                  "ID": "b2e06e81-7c79-c850-8767-87940310981a",
+                  "ID": "4854a6c9-96c7-efdb-1d7e-8b414a70ce50",
                   "Parameters": {
                     "Name": "secondary Ladder element 2",
-                    "Value": "0.100000000040"
+                    "Value": "0.099999997963"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21384,7 +21498,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 4",
-                  "ID": "0042a030-8775-f052-3870-e451cbaca646",
+                  "ID": "012a1a84-486b-8c91-a43b-a8890faee16c",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "secondary Ladder element 4",
@@ -21430,10 +21544,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 4",
-                  "ID": "07727d08-5f9f-803c-97d1-a97020c6c40f",
+                  "ID": "e934a7ae-9c78-61f9-737b-eeb1e3869ef5",
                   "Parameters": {
                     "Name": "secondary Ladder element 4",
-                    "Value": "0.100000000040"
+                    "Value": "0.099999997963"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21466,7 +21580,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 6",
-                  "ID": "46b3b6d5-1f56-e987-a1a5-9347423da264",
+                  "ID": "50903e46-0d0f-1005-a206-d06f4e2f9bf6",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "secondary Ladder element 6",
@@ -21512,10 +21626,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 6",
-                  "ID": "f0a8ae6b-31b3-0742-f404-74ecde7e30c8",
+                  "ID": "20ec884b-3d83-d7ca-91fc-141a09568141",
                   "Parameters": {
                     "Name": "secondary Ladder element 6",
-                    "Value": "0.100000000040"
+                    "Value": "0.099999997963"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21548,7 +21662,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 8",
-                  "ID": "ca1017e6-7263-4b5d-7063-d83bf7284af6",
+                  "ID": "a7ff1f8c-a6f4-9c8c-6645-c72966caa5e3",
                   "Parameters": {
                     "Iinit": "0",
                     "Name": "secondary Ladder element 8",
@@ -21594,10 +21708,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "secondary Ladder element 8",
-                  "ID": "acd79548-7b72-3744-5d6a-284925cfc5c7",
+                  "ID": "8bc4386f-7837-33b5-a716-62a3db51ea5b",
                   "Parameters": {
                     "Name": "secondary Ladder element 8",
-                    "Value": "0.100000000040"
+                    "Value": "0.099999997963"
                   },
                   "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
@@ -21630,10 +21744,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Core winding column and plates 0",
-                  "ID": "3624f3e0-097f-83e8-5f41-b8c3449dbc89",
+                  "ID": "3c5513d9-298d-3dc6-08ee-578ef724400b",
                   "Parameters": {
-                    "Area": "0.000682892205",
-                    "Length": "0.060945747438",
+                    "Area": "0.000367984350",
+                    "Length": "0.053253336608",
                     "Name": "Core winding column and plates 0",
                     "RelativePermeability": "2303.500000000000"
                   },
@@ -21686,10 +21800,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Column 0 gap 0",
-                  "ID": "8f96ccaa-4115-7328-d669-736386ded14d",
+                  "ID": "2165a445-89b4-65a5-40a9-5fffdaed5d64",
                   "Parameters": {
-                    "Area": "0.000684140000",
-                    "Length": "0.000000000000",
+                    "Area": "0.000368134000",
+                    "Length": "0.000005000000",
                     "Name": "Column 0 gap 0",
                     "RelativePermeability": "1"
                   },
@@ -21742,10 +21856,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Core lateral column 1",
-                  "ID": "18ebdba1-19b0-46ee-90ad-205d8d7daa7a",
+                  "ID": "21116b9e-3997-1c72-38a3-68d9fcbb9935",
                   "Parameters": {
-                    "Area": "0.000682892205",
-                    "Length": "0.044500000000",
+                    "Area": "0.000367984350",
+                    "Length": "0.044900000000",
                     "Name": "Core lateral column 1",
                     "RelativePermeability": "2303.500000000000"
                   },
@@ -21798,9 +21912,9 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Column 1 gap 0",
-                  "ID": "d2417658-3cb6-3451-b8dd-4588399e345f",
+                  "ID": "400c5079-5f72-5424-d13b-dcc33321b8bb",
                   "Parameters": {
-                    "Area": "0.000343650000",
+                    "Area": "0.000183105000",
                     "Length": "0.000005000000",
                     "Name": "Column 1 gap 0",
                     "RelativePermeability": "1"
@@ -21854,10 +21968,10 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Core lateral column 2",
-                  "ID": "97390f98-1aa5-4c90-423e-9e717fcb2fd8",
+                  "ID": "91b1ba06-d07c-0f27-5754-be383bc68db8",
                   "Parameters": {
-                    "Area": "0.000682892205",
-                    "Length": "0.044500000000",
+                    "Area": "0.000367984350",
+                    "Length": "0.044900000000",
                     "Name": "Core lateral column 2",
                     "RelativePermeability": "2303.500000000000"
                   },
@@ -21910,9 +22024,9 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Column 2 gap 0",
-                  "ID": "ad685757-bbc8-0b15-ffd8-a3e36b759365",
+                  "ID": "3f35d0c5-635e-ac19-ef70-cd73f2c7c62e",
                   "Parameters": {
-                    "Area": "0.000343650000",
+                    "Area": "0.000183105000",
                     "Length": "0.000005000000",
                     "Name": "Column 2 gap 0",
                     "RelativePermeability": "1"
@@ -21966,7 +22080,7 @@
                   "VF": false,
                   "Disabled": false,
                   "Name": "Magnetic ground",
-                  "ID": "9a446720-b850-2a1d-9881-2f3951454f5a",
+                  "ID": "d98a3fe5-96c0-81e3-91b1-8a2c32f3a745",
                   "Parameters": {
                     "Name": "Magnetic ground"
                   },
@@ -22139,23 +22253,6 @@
                   "Segments": [
                     {
                       "StartX": 3,
-                      "StartY": 34,
-                      "EndX": 21,
-                      "EndY": 34
-                    },
-                    {
-                      "StartX": 3,
-                      "StartY": 34,
-                      "EndX": -21,
-                      "EndY": 34
-                    }
-                  ],
-                  "Name": "Merge of connector: Bottom Connector between column 0 and columm 1 with Bottom Connector between column 0 and columm 2"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 3,
                       "StartY": -46,
                       "EndX": 3,
                       "EndY": -13
@@ -22186,14 +22283,31 @@
                     }
                   ],
                   "Name": "Merge of connector: Connector between winding 0 and top with Merge of connector: Connector between column 1 and top with Connector between column 2 and top"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 3,
+                      "StartY": 34,
+                      "EndX": 21,
+                      "EndY": 34
+                    },
+                    {
+                      "StartX": 3,
+                      "StartY": 34,
+                      "EndX": -21,
+                      "EndY": 34
+                    }
+                  ],
+                  "Name": "Merge of connector: Bottom Connector between column 0 and columm 1 with Bottom Connector between column 0 and columm 2"
                 }
               ],
-              "Name": "WattWell DAB OM Tx",
+              "Name": "WattWell DAB OM Tx ETD",
               "Variables": [],
               "VariableFile": ""
             },
-            "SubcircuitDefinitionID": "efb95c1a-e8d8-9fc5-6814-f8ceedc76a89",
-            "SubcircuitDefinitionID": "efb95c1a-e8d8-9fc5-6814-f8ceedc76a89",
+            "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
+            "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
             "ParametersDisplayAttributes": {
               "Name": {
                 "IsVisible": true,
@@ -22212,126 +22326,6 @@
                 "UnrotatedHeight": 1,
                 "FontSize": 12,
                 "Color": "Black"
-              }
-            }
-          },
-          {
-            "LibraryName": "Inductor",
-            "Top": -11,
-            "Left": 27,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": true,
-            "Name": "L1",
-            "ID": "9d8e3326-55e9-4024-9e3a-a5c0ddadac7e",
-            "Parameters": {
-              "Iinit": "0",
-              "Name": "L1",
-              "Value": "0.450u"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Iinit": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 4",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Value": {
-                "IsVisible": true,
-                "Suffix": "H",
-                "RelativeLocation": "2 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Ideal Transformer, 2 Winding",
-            "Top": -9,
-            "Left": 34,
-            "Angle": 270,
-            "HF": false,
-            "VF": false,
-            "Disabled": true,
-            "Name": "TX1",
-            "ID": "8ff372a3-5ac3-4bd6-b229-c8e512dcfd1f",
-            "Parameters": {
-              "Name": "TX1",
-              "Ratio": "8.75"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Ratio": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 0",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Differential Voltage Meter",
-            "Top": -5,
-            "Left": 30,
-            "Angle": 90,
-            "HF": false,
-            "VF": false,
-            "Disabled": true,
-            "Name": "V2",
-            "ID": "43a7be7a-759c-4b3d-b312-a8b6d796c0f5",
-            "Parameters": {
-              "Name": "V2",
-              "SamplingTime": "none"
-            },
-            "EnabledScopes": [
-              "Voltage"
-            ],
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "1 1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 2,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "SamplingTime": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
               }
             }
           }
@@ -22600,18 +22594,6 @@
                 "EndY": 5
               },
               {
-                "StartX": 43,
-                "StartY": 9,
-                "EndX": 43,
-                "EndY": 11
-              },
-              {
-                "StartX": 40,
-                "StartY": 1,
-                "EndX": 40,
-                "EndY": 3
-              },
-              {
                 "StartX": 40,
                 "StartY": 3,
                 "EndX": 45,
@@ -22624,6 +22606,12 @@
                 "EndY": 11
               },
               {
+                "StartX": 40,
+                "StartY": 1,
+                "EndX": 40,
+                "EndY": 3
+              },
+              {
                 "StartX": 38,
                 "StartY": -4,
                 "EndX": 38,
@@ -22634,6 +22622,12 @@
                 "StartY": 1,
                 "EndX": 40,
                 "EndY": 1
+              },
+              {
+                "StartX": 43,
+                "StartY": 9,
+                "EndX": 43,
+                "EndY": 11
               },
               {
                 "StartX": 43,
@@ -22666,7 +22660,7 @@
                 "EndY": 12
               }
             ],
-            "Name": "C11"
+            "Name": "C2"
           },
           {
             "Segments": [
@@ -22840,24 +22834,6 @@
                 "EndY": 5
               },
               {
-                "StartX": 8,
-                "StartY": 4,
-                "EndX": 11,
-                "EndY": 4
-              },
-              {
-                "StartX": 8,
-                "StartY": 12,
-                "EndX": 11,
-                "EndY": 12
-              },
-              {
-                "StartX": 22,
-                "StartY": 6,
-                "EndX": 22,
-                "EndY": 5
-              },
-              {
                 "StartX": 27,
                 "StartY": -10,
                 "EndX": 26,
@@ -22870,6 +22846,24 @@
                 "EndY": 5
               },
               {
+                "StartX": 22,
+                "StartY": 6,
+                "EndX": 22,
+                "EndY": 5
+              },
+              {
+                "StartX": 8,
+                "StartY": 12,
+                "EndX": 11,
+                "EndY": 12
+              },
+              {
+                "StartX": 8,
+                "StartY": 4,
+                "EndX": 11,
+                "EndY": 4
+              },
+              {
                 "StartX": 8,
                 "StartY": 4,
                 "EndX": 8,
@@ -22882,6 +22876,12 @@
                 "EndY": 12
               },
               {
+                "StartX": 26,
+                "StartY": 5,
+                "EndX": 33,
+                "EndY": 5
+              },
+              {
                 "StartX": 8,
                 "StartY": 5,
                 "EndX": 22,
@@ -22892,15 +22892,9 @@
                 "StartY": 5,
                 "EndX": 26,
                 "EndY": 5
-              },
-              {
-                "StartX": 26,
-                "StartY": 5,
-                "EndX": 33,
-                "EndY": 5
               }
             ],
-            "Name": "C3"
+            "Name": "C7"
           },
           {
             "Segments": [
@@ -22915,12 +22909,6 @@
                 "StartY": 12,
                 "EndX": 53,
                 "EndY": 12
-              },
-              {
-                "StartX": 43,
-                "StartY": 6,
-                "EndX": 43,
-                "EndY": 5
               },
               {
                 "StartX": 48,
@@ -22948,6 +22936,12 @@
               },
               {
                 "StartX": 43,
+                "StartY": 6,
+                "EndX": 43,
+                "EndY": 5
+              },
+              {
+                "StartX": 43,
                 "StartY": 5,
                 "EndX": 48,
                 "EndY": 5
@@ -22971,7 +22965,7 @@
                 "EndY": 12
               }
             ],
-            "Name": "C2"
+            "Name": "C11"
           },
           {
             "Segments": [
@@ -23007,9 +23001,9 @@
               },
               {
                 "StartX": 32,
-                "StartY": -2,
-                "EndX": 36,
-                "EndY": -2
+                "StartY": 9,
+                "EndX": 32,
+                "EndY": 11
               },
               {
                 "StartX": 33,
@@ -23019,9 +23013,9 @@
               },
               {
                 "StartX": 32,
-                "StartY": 9,
-                "EndX": 32,
-                "EndY": 11
+                "StartY": -2,
+                "EndX": 36,
+                "EndY": -2
               },
               {
                 "StartX": 36,
@@ -23074,7 +23068,7 @@
         "VariableFile": ""
       },
       "TransientAnalysis": {
-        "EndTime": "0.01",
+        "EndTime": "0.1",
         "FixedTimeStep": false,
         "SaveInitialPoint": true,
         "CompressScopes": true,
@@ -23095,21 +23089,21 @@
       "Libraries": [],
       "Devices": [
         {
-          "LibraryName": "WattWell DAB OM Tx",
+          "LibraryName": "WattWell DAB OM Tx ETD",
           "Top": 0,
           "Left": 0,
           "Angle": 0,
           "HF": false,
           "VF": false,
           "Disabled": false,
-          "Name": "Custom component made with OpenMagnetic",
-          "ID": "2db2d6b9-7ebb-4df4-95de-9020663a2b3f",
+          "Name": "My custom magnetic",
+          "ID": "54088d13-ccea-40ee-948d-409aec2ae607",
           "Parameters": {
-            "Name": "Custom component made with OpenMagnetic",
-            "DefinitionName": "WattWell DAB OM Tx"
+            "Name": "My custom magnetic",
+            "DefinitionName": "WattWell DAB OM Tx ETD"
           },
           "EnabledScopes": [],
-          "SubcircuitDefinitionID": "efb95c1a-e8d8-9fc5-6814-f8ceedc76a89",
+          "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
           "ParametersDisplayAttributes": {
             "Name": {
               "IsVisible": true,
