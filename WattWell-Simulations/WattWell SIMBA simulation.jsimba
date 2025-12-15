@@ -22979,8 +22979,8 @@
               "Value": "35"
             },
             "EnabledScopes": [
-              "Current",
-              "Voltage"
+              "Voltage",
+              "Current"
             ],
             "ParametersDisplayAttributes": {
               "Name": {
