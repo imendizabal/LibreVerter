@@ -16,19 +16,21 @@ Then, the goal is to design an Open Source inverter that is modular to be easy t
 
 The project will be divided into different "workpackages" based on the functional blocks needed to make the whole system work. These functional blocks are called "Modules", and may be split into further modules where necessary. The diagram below shows the module definitions we are currently working to. 
 
-<img width="1330" height="720" alt="WattWell Block Diagram-External Interfaces - Operational drawio (3)" src="https://github.com/user-attachments/assets/8eaf413c-4e8b-467d-855a-313eac3cd6d3" />
+<img width="1332" height="812" alt="LibreVerter Block Diagram-External Interfaces - Operational drawio (1)" src="https://github.com/user-attachments/assets/6a775666-56bb-4ce1-a6c0-4d3df1702fef" />
+
 
 1. Supervisory control: development of the main control board able to get the measurements, generate references, ... This board embeds the main mcu.
-2. Inverter Board
+2. Inverter Board.
 3. DC/DC converter: Able to take a variable DC input (48V +/- 20%) and output a stable DC output controllable between 360 V and 500 V.
-4. DC Link: A DC link capable of self-protection
-5. A DC filter for smooth input/output
-6. DC Protections for over-current and over-voltage protection
-7. DC connections for physically connecting the DC source to WattWell
-8.  AC filter for smooth sine wave input/output
-9. AC protection for over-current and over-voltage protection. Required for compatibility with grid codes.
-10. Connections for phsyically conecting the external electrical system to WattWell
-11. Human Machine Interface (HMI) to act as the interface between the user and the supervisory control
+4. DC Link: A DC link capable of self-protection.
+5. A DC filter for smooth input/output.
+6. DC Protections for over-current, over-voltage protection and under-voltage protection. 
+7. DC connections for physically connecting the DC source to LibreVerter.
+8. Maximum Power Point Tracker DC/DC converter for connecting the solar panels to LibreVerter and extracting the maximum power.
+9.  AC filter for smooth sine wave input/output.
+10. AC protection for over-current and over-voltage protection. Required for compatibility with grid codes.
+11. Connections for phsyically conecting the external electrical system to LibreVerter.
+12. Human Machine Interface (HMI) to act as the interface between the user and the supervisory control
 
 For the Inverter board, two sub-modules are assumed:
 1. Control and Driver board: interface between the supervisory control board and power switch (IGBT's/Mosfet's). The driver board needs to generate the PWM signals based on a reference from the supervisor.
@@ -37,7 +39,7 @@ For the Inverter board, two sub-modules are assumed:
 # Who are we making this for?
 Our ideal customer profile is:
 A “solar as a service” provider. Responsible for through life maintenance. Because:
-1. They are able to buy WattWells via individual customer orders.
+1. They are able to buy LibreVerters via individual customer orders.
 2. Their interests are aligned with selling as many systems as possible, as well as being able to maintain the systems at low cost. Repair and re-use are essential.
 3. They are regularly buying inverter systems.
 4. They are likely to be a relatively small company, maybe 10-50 people, with big buying power via their customers.
