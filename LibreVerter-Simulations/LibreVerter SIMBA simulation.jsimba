@@ -19689,13 +19689,13 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": true,
+            "Disabled": false,
             "Name": "L1",
             "ID": "9d8e3326-55e9-4024-9e3a-a5c0ddadac7e",
             "Parameters": {
               "Iinit": "0",
               "Name": "L1",
-              "Value": "0.450u"
+              "Value": "1.12u"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -19735,12 +19735,12 @@
             "Angle": 270,
             "HF": false,
             "VF": false,
-            "Disabled": true,
+            "Disabled": false,
             "Name": "TX1",
             "ID": "8ff372a3-5ac3-4bd6-b229-c8e512dcfd1f",
             "Parameters": {
               "Name": "TX1",
-              "Ratio": "8.75"
+              "Ratio": "8.33"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -19771,7 +19771,7 @@
             "Angle": 90,
             "HF": false,
             "VF": false,
-            "Disabled": true,
+            "Disabled": false,
             "Name": "V2",
             "ID": "43a7be7a-759c-4b3d-b312-a8b6d796c0f5",
             "Parameters": {
@@ -19799,1732 +19799,6 @@
                 "UnrotatedHeight": 1,
                 "FontSize": 12,
                 "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "WattWell DAB OM Tx ETD",
-            "Top": 3,
-            "Left": 33,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "Sc2",
-            "ID": "0d5c5aeb-5ba2-4ff8-bdf6-9a33f19f3239",
-            "Parameters": {
-              "Name": "Sc2",
-              "DefinitionName": "WattWell DAB OM Tx ETD"
-            },
-            "EnabledScopes": [],
-            "SubcircuitDefinition": {
-              "Id": "995dce03-7069-ae28-6c11-230b95f7ce71",
-              "Devices": [
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -14,
-                  "Left": -5,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Leakage inductance",
-                  "ID": "acdad50b-d6f3-c3ea-3892-6a84484da1a5",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Leakage inductance",
-                    "Value": "0.000000432957"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Winding",
-                  "Top": -14,
-                  "Left": 1,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary",
-                  "ID": "8cf144cf-3218-9f0e-4697-89081e33d8c5",
-                  "Parameters": {
-                    "Name": "primary",
-                    "NumberOfTurns": "3.000000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 0",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "NumberOfTurns": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 5",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Electrical Pin",
-                  "Top": -10,
-                  "Left": -1,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Output",
-                  "ID": "348906ff-b3ba-96b7-d862-a9a42a194a36",
-                  "Parameters": {
-                    "Name": "primary Output"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Electrical Pin",
-                  "Top": -14,
-                  "Left": -19,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Input",
-                  "ID": "d47248d3-eac4-016b-da64-e88503bad4e1",
-                  "Parameters": {
-                    "Name": "primary Input"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -14,
-                  "Left": -11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary AC resistance",
-                  "ID": "a694c018-8a46-1450-cae0-86daec0c45cf",
-                  "Parameters": {
-                    "Name": "primary AC resistance",
-                    "Value": "0.000625940872"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -14,
-                  "Left": -17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 0",
-                  "ID": "3534bab1-f3fa-e281-726d-d1b14036704b",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Ladder element 0",
-                    "Value": "0.000000008170"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -17,
-                  "Left": -14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 0",
-                  "ID": "1ca4bf02-8085-c598-e6ff-827284497419",
-                  "Parameters": {
-                    "Name": "primary Ladder element 0",
-                    "Value": "0.002600267308"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -20,
-                  "Left": -17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 2",
-                  "ID": "43982369-eeb6-3021-6314-cf6d3dc9e72c",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Ladder element 2",
-                    "Value": "0.001003623636"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -23,
-                  "Left": -14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 2",
-                  "ID": "bb00d5eb-f7ae-d213-3bae-e81abdaeb9e5",
-                  "Parameters": {
-                    "Name": "primary Ladder element 2",
-                    "Value": "0.002599923632"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -26,
-                  "Left": -17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 4",
-                  "ID": "23069b06-4bc5-0365-a2c8-ef76fe9db929",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Ladder element 4",
-                    "Value": "0.001002703418"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -29,
-                  "Left": -14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 4",
-                  "ID": "3e0e7341-4322-1d92-2734-5a4cf61466d0",
-                  "Parameters": {
-                    "Name": "primary Ladder element 4",
-                    "Value": "0.002599339212"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -32,
-                  "Left": -17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 6",
-                  "ID": "70ffe2df-f7ef-8738-e7d7-ae4ea4031ee7",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Ladder element 6",
-                    "Value": "0.001001410774"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -35,
-                  "Left": -14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 6",
-                  "ID": "b5cc799f-138c-50cf-c829-8ba68b23b893",
-                  "Parameters": {
-                    "Name": "primary Ladder element 6",
-                    "Value": "0.002598781071"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -38,
-                  "Left": -17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 8",
-                  "ID": "d0f53522-7c9e-0a52-a92b-0175d70af3d3",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "primary Ladder element 8",
-                    "Value": "0.001000387700"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -41,
-                  "Left": -14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "primary Ladder element 8",
-                  "ID": "6fd55f5f-7802-be13-f4c5-c0564da28056",
-                  "Parameters": {
-                    "Name": "primary Ladder element 8",
-                    "Value": "0.002598459423"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Winding",
-                  "Top": -8,
-                  "Left": 1,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary",
-                  "ID": "c2cbb16d-b4d8-8397-3cff-6339b2b1c038",
-                  "Parameters": {
-                    "Name": "secondary",
-                    "NumberOfTurns": "26.000000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 0",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "NumberOfTurns": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 5",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Electrical Pin",
-                  "Top": -8,
-                  "Left": 17,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Input",
-                  "ID": "0a62e6e9-797c-8f3f-b65c-ab396bc1e483",
-                  "Parameters": {
-                    "Name": "secondary Input"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Electrical Pin",
-                  "Top": -4,
-                  "Left": 5,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Output",
-                  "ID": "f7d82cc8-8d49-1fb9-0b42-49af44940e88",
-                  "Parameters": {
-                    "Name": "secondary Output"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -8,
-                  "Left": 5,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary AC resistance",
-                  "ID": "f8fa8488-bdfe-487b-8229-bd08f4f4728f",
-                  "Parameters": {
-                    "Name": "secondary AC resistance",
-                    "Value": "0.012306585116"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -8,
-                  "Left": 11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 0",
-                  "ID": "86fc2a0b-7681-01fe-a0ed-a752d9f23426",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "secondary Ladder element 0",
-                    "Value": "0.000000100000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -11,
-                  "Left": 14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 0",
-                  "ID": "b3ca273b-38e2-0b7b-f641-64b86152090f",
-                  "Parameters": {
-                    "Name": "secondary Ladder element 0",
-                    "Value": "0.099999997963"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -14,
-                  "Left": 11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 2",
-                  "ID": "cefde5eb-d416-745a-096e-1d783ad5d383",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "secondary Ladder element 2",
-                    "Value": "0.100000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -17,
-                  "Left": 14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 2",
-                  "ID": "4854a6c9-96c7-efdb-1d7e-8b414a70ce50",
-                  "Parameters": {
-                    "Name": "secondary Ladder element 2",
-                    "Value": "0.099999997963"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -20,
-                  "Left": 11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 4",
-                  "ID": "012a1a84-486b-8c91-a43b-a8890faee16c",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "secondary Ladder element 4",
-                    "Value": "0.100000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -23,
-                  "Left": 14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 4",
-                  "ID": "e934a7ae-9c78-61f9-737b-eeb1e3869ef5",
-                  "Parameters": {
-                    "Name": "secondary Ladder element 4",
-                    "Value": "0.099999997963"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -26,
-                  "Left": 11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 6",
-                  "ID": "50903e46-0d0f-1005-a206-d06f4e2f9bf6",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "secondary Ladder element 6",
-                    "Value": "0.100000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -29,
-                  "Left": 14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 6",
-                  "ID": "20ec884b-3d83-d7ca-91fc-141a09568141",
-                  "Parameters": {
-                    "Name": "secondary Ladder element 6",
-                    "Value": "0.099999997963"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Inductor",
-                  "Top": -32,
-                  "Left": 11,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 8",
-                  "ID": "a7ff1f8c-a6f4-9c8c-6645-c72966caa5e3",
-                  "Parameters": {
-                    "Iinit": "0",
-                    "Name": "secondary Ladder element 8",
-                    "Value": "0.100000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Iinit": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "H",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Resistor",
-                  "Top": -35,
-                  "Left": 14,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "secondary Ladder element 8",
-                  "ID": "8bc4386f-7837-33b5-a716-62a3db51ea5b",
-                  "Parameters": {
-                    "Name": "secondary Ladder element 8",
-                    "Value": "0.099999997963"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    },
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "\u03A9",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#0081BC"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Linear Core",
-                  "Top": 24,
-                  "Left": 0,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Core winding column and plates 0",
-                  "ID": "3c5513d9-298d-3dc6-08ee-578ef724400b",
-                  "Parameters": {
-                    "Area": "0.000367984350",
-                    "Length": "0.053253336608",
-                    "Name": "Core winding column and plates 0",
-                    "RelativePermeability": "2303.500000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Air Gap",
-                  "Top": 30,
-                  "Left": 0,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Column 0 gap 0",
-                  "ID": "2165a445-89b4-65a5-40a9-5fffdaed5d64",
-                  "Parameters": {
-                    "Area": "0.000368134000",
-                    "Length": "0.000005000000",
-                    "Name": "Column 0 gap 0",
-                    "RelativePermeability": "1"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Linear Core",
-                  "Top": 24,
-                  "Left": 18,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Core lateral column 1",
-                  "ID": "21116b9e-3997-1c72-38a3-68d9fcbb9935",
-                  "Parameters": {
-                    "Area": "0.000367984350",
-                    "Length": "0.044900000000",
-                    "Name": "Core lateral column 1",
-                    "RelativePermeability": "2303.500000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Air Gap",
-                  "Top": 30,
-                  "Left": 18,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Column 1 gap 0",
-                  "ID": "400c5079-5f72-5424-d13b-dcc33321b8bb",
-                  "Parameters": {
-                    "Area": "0.000183105000",
-                    "Length": "0.000005000000",
-                    "Name": "Column 1 gap 0",
-                    "RelativePermeability": "1"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Linear Core",
-                  "Top": 24,
-                  "Left": -24,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Core lateral column 2",
-                  "ID": "91b1ba06-d07c-0f27-5754-be383bc68db8",
-                  "Parameters": {
-                    "Area": "0.000367984350",
-                    "Length": "0.044900000000",
-                    "Name": "Core lateral column 2",
-                    "RelativePermeability": "2303.500000000000"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Air Gap",
-                  "Top": 30,
-                  "Left": -24,
-                  "Angle": 90,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Column 2 gap 0",
-                  "ID": "3f35d0c5-635e-ac19-ef70-cd73f2c7c62e",
-                  "Parameters": {
-                    "Area": "0.000183105000",
-                    "Length": "0.000005000000",
-                    "Name": "Column 2 gap 0",
-                    "RelativePermeability": "1"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Area": {
-                      "IsVisible": false,
-                      "Suffix": "m^2 ",
-                      "RelativeLocation": "2 3",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Length": {
-                      "IsVisible": false,
-                      "Suffix": "m",
-                      "RelativeLocation": "2 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "2 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    },
-                    "RelativePermeability": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "2 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Magnetic Ground",
-                  "Top": -48,
-                  "Left": 2,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Magnetic ground",
-                  "ID": "d98a3fe5-96c0-81e3-91b1-8a2c32f3a745",
-                  "Parameters": {
-                    "Name": "Magnetic ground"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "0 2",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 2,
-                      "FontSize": 12,
-                      "Color": "#B300B3"
-                    }
-                  }
-                }
-              ],
-              "Connectors": [
-                {
-                  "Segments": [
-                    {
-                      "StartX": 3,
-                      "StartY": -7,
-                      "EndX": 3,
-                      "EndY": -9
-                    }
-                  ],
-                  "Name": "Connector between winding 0 and winding 1"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": -17,
-                      "StartY": -19,
-                      "EndX": -17,
-                      "EndY": -13
-                    }
-                  ],
-                  "Name": "Connector between winding primary ladder elements0 and 2"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": -17,
-                      "StartY": -25,
-                      "EndX": -17,
-                      "EndY": -19
-                    }
-                  ],
-                  "Name": "Connector between winding primary ladder elements2 and 4"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": -17,
-                      "StartY": -31,
-                      "EndX": -17,
-                      "EndY": -25
-                    }
-                  ],
-                  "Name": "Connector between winding primary ladder elements4 and 6"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": -17,
-                      "StartY": -37,
-                      "EndX": -17,
-                      "EndY": -31
-                    }
-                  ],
-                  "Name": "Connector between winding primary ladder elements6 and 8"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 11,
-                      "StartY": -13,
-                      "EndX": 11,
-                      "EndY": -7
-                    }
-                  ],
-                  "Name": "Connector between winding secondary ladder elements0 and 2"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 11,
-                      "StartY": -19,
-                      "EndX": 11,
-                      "EndY": -13
-                    }
-                  ],
-                  "Name": "Connector between winding secondary ladder elements2 and 4"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 11,
-                      "StartY": -25,
-                      "EndX": 11,
-                      "EndY": -19
-                    }
-                  ],
-                  "Name": "Connector between winding secondary ladder elements4 and 6"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 11,
-                      "StartY": -31,
-                      "EndX": 11,
-                      "EndY": -25
-                    }
-                  ],
-                  "Name": "Connector between winding secondary ladder elements6 and 8"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": -17,
-                      "StartY": -43,
-                      "EndX": -17,
-                      "EndY": -37
-                    },
-                    {
-                      "StartX": -17,
-                      "StartY": -43,
-                      "EndX": -11,
-                      "EndY": -43
-                    }
-                  ],
-                  "Name": "Merge of connector: Connector between winding primary ladder elements8 and 10 with Connector between winding primary ladder elements8 and 10"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 3,
-                      "StartY": -2,
-                      "EndX": 3,
-                      "EndY": -3
-                    },
-                    {
-                      "StartX": 3,
-                      "StartY": -2,
-                      "EndX": 3,
-                      "EndY": 22
-                    }
-                  ],
-                  "Name": "Merge of connector: Connector between winding 1 and winding 2 with Central column connector to core losses"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 11,
-                      "StartY": -37,
-                      "EndX": 11,
-                      "EndY": -31
-                    },
-                    {
-                      "StartX": 11,
-                      "StartY": -37,
-                      "EndX": 17,
-                      "EndY": -37
-                    }
-                  ],
-                  "Name": "Merge of connector: Connector between winding secondary ladder elements8 and 10 with Connector between winding secondary ladder elements8 and 10"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 3,
-                      "StartY": -46,
-                      "EndX": 3,
-                      "EndY": -13
-                    },
-                    {
-                      "StartX": 3,
-                      "StartY": -46,
-                      "EndX": 21,
-                      "EndY": -46
-                    },
-                    {
-                      "StartX": 21,
-                      "StartY": -46,
-                      "EndX": 21,
-                      "EndY": 22
-                    },
-                    {
-                      "StartX": 3,
-                      "StartY": -46,
-                      "EndX": -21,
-                      "EndY": -46
-                    },
-                    {
-                      "StartX": -21,
-                      "StartY": -46,
-                      "EndX": -21,
-                      "EndY": 22
-                    }
-                  ],
-                  "Name": "Merge of connector: Connector between winding 0 and top with Merge of connector: Connector between column 1 and top with Connector between column 2 and top"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 3,
-                      "StartY": 34,
-                      "EndX": 21,
-                      "EndY": 34
-                    },
-                    {
-                      "StartX": 3,
-                      "StartY": 34,
-                      "EndX": -21,
-                      "EndY": 34
-                    }
-                  ],
-                  "Name": "Merge of connector: Bottom Connector between column 0 and columm 1 with Bottom Connector between column 0 and columm 2"
-                }
-              ],
-              "Name": "WattWell DAB OM Tx ETD",
-              "Variables": [],
-              "VariableFile": ""
-            },
-            "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
-            "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "3 5",
-                "UnrotatedWidth": 4,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "Black"
-              },
-              "DefinitionName": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "3 3",
-                "UnrotatedWidth": 4,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "Black"
               }
             }
           },
@@ -22882,7 +21156,7 @@
             "ID": "0f772713-f051-4c90-b726-db2624069f26",
             "Parameters": {
               "Name": "C8",
-              "Value": "100u",
+              "Value": "31u",
               "Vinit": "400"
             },
             "EnabledScopes": [],
@@ -22976,11 +21250,11 @@
             "ID": "62fd7888-7997-4389-985f-cc829eae61cc",
             "Parameters": {
               "Name": "R2",
-              "Value": "35"
+              "Value": "80"
             },
             "EnabledScopes": [
-              "Voltage",
-              "Current"
+              "Current",
+              "Voltage"
             ],
             "ParametersDisplayAttributes": {
               "Name": {
@@ -23054,6 +21328,7 @@
               "Voltage": "48"
             },
             "EnabledScopes": [
+              "Current",
               "Voltage"
             ],
             "ParametersDisplayAttributes": {
@@ -23136,6 +21411,42 @@
             "Parameters": {
               "Name": "R3",
               "Value": "3.2m"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "\u03A9",
+                "RelativeLocation": "3 -2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 2,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Resistor",
+            "Top": 0,
+            "Left": -24,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "R4",
+            "ID": "d0457174-aabb-4b54-a953-eb10902f327a",
+            "Parameters": {
+              "Name": "R4",
+              "Value": "6.2m"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -23563,115 +21874,6 @@
           {
             "Segments": [
               {
-                "StartX": 33,
-                "StartY": 6,
-                "EndX": 33,
-                "EndY": 5
-              },
-              {
-                "StartX": 30,
-                "StartY": 5,
-                "EndX": 33,
-                "EndY": 5
-              }
-            ],
-            "Name": "C37"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 27,
-                "StartY": -10,
-                "EndX": 26,
-                "EndY": -10
-              }
-            ],
-            "Name": "C33"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 36,
-                "StartY": 3,
-                "EndX": 29,
-                "EndY": 3
-              },
-              {
-                "StartX": 32,
-                "StartY": -2,
-                "EndX": 36,
-                "EndY": -2
-              },
-              {
-                "StartX": 36,
-                "StartY": -4,
-                "EndX": 36,
-                "EndY": -2
-              },
-              {
-                "StartX": 36,
-                "StartY": -2,
-                "EndX": 36,
-                "EndY": 3
-              }
-            ],
-            "Name": "C8"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 40,
-                "StartY": 3,
-                "EndX": 45,
-                "EndY": 3
-              },
-              {
-                "StartX": 40,
-                "StartY": 1,
-                "EndX": 40,
-                "EndY": 3
-              },
-              {
-                "StartX": 38,
-                "StartY": 1,
-                "EndX": 40,
-                "EndY": 1
-              },
-              {
-                "StartX": 38,
-                "StartY": -4,
-                "EndX": 38,
-                "EndY": 1
-              }
-            ],
-            "Name": "C35"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 38,
-                "StartY": -10,
-                "EndX": 44,
-                "EndY": -10
-              },
-              {
-                "StartX": 44,
-                "StartY": -10,
-                "EndX": 44,
-                "EndY": 2
-              },
-              {
-                "StartX": 44,
-                "StartY": 2,
-                "EndX": 48,
-                "EndY": 2
-              }
-            ],
-            "Name": "C36"
-          },
-          {
-            "Segments": [
-              {
                 "StartX": 8,
                 "StartY": 12,
                 "EndX": 11,
@@ -23765,71 +21967,6 @@
           {
             "Segments": [
               {
-                "StartX": 62,
-                "StartY": 5,
-                "EndX": 65,
-                "EndY": 5
-              },
-              {
-                "StartX": 62,
-                "StartY": 12,
-                "EndX": 65,
-                "EndY": 12
-              },
-              {
-                "StartX": 65,
-                "StartY": 4,
-                "EndX": 65,
-                "EndY": 5
-              },
-              {
-                "StartX": 43,
-                "StartY": 9,
-                "EndX": 43,
-                "EndY": 11
-              },
-              {
-                "StartX": 44,
-                "StartY": 9,
-                "EndX": 44,
-                "EndY": 11
-              },
-              {
-                "StartX": 43,
-                "StartY": 11,
-                "EndX": 44,
-                "EndY": 11
-              },
-              {
-                "StartX": 44,
-                "StartY": 11,
-                "EndX": 62,
-                "EndY": 11
-              },
-              {
-                "StartX": 62,
-                "StartY": 4,
-                "EndX": 62,
-                "EndY": 5
-              },
-              {
-                "StartX": 62,
-                "StartY": 5,
-                "EndX": 62,
-                "EndY": 11
-              },
-              {
-                "StartX": 62,
-                "StartY": 11,
-                "EndX": 62,
-                "EndY": 12
-              }
-            ],
-            "Name": "C38"
-          },
-          {
-            "Segments": [
-              {
                 "StartX": 45,
                 "StartY": 7,
                 "EndX": 52,
@@ -23902,17 +22039,35 @@
               {
                 "StartX": 44,
                 "StartY": 5,
+                "EndX": 45,
+                "EndY": 5
+              },
+              {
+                "StartX": 38,
+                "StartY": -10,
+                "EndX": 41,
+                "EndY": -10
+              },
+              {
+                "StartX": 41,
+                "StartY": -10,
+                "EndX": 41,
+                "EndY": 5
+              },
+              {
+                "StartX": 41,
+                "StartY": 5,
                 "EndX": 43,
                 "EndY": 5
               },
               {
-                "StartX": 44,
+                "StartX": 43,
                 "StartY": 5,
-                "EndX": 45,
+                "EndX": 44,
                 "EndY": 5
               }
             ],
-            "Name": "C41"
+            "Name": "C19"
           },
           {
             "Segments": [
@@ -23942,65 +22097,6 @@
               }
             ],
             "Name": "C11"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 33,
-                "StartY": 9,
-                "EndX": 33,
-                "EndY": 10
-              },
-              {
-                "StartX": 20,
-                "StartY": 12,
-                "EndX": 23,
-                "EndY": 12
-              },
-              {
-                "StartX": 20,
-                "StartY": 4,
-                "EndX": 23,
-                "EndY": 4
-              },
-              {
-                "StartX": 20,
-                "StartY": 11,
-                "EndX": 22,
-                "EndY": 11
-              },
-              {
-                "StartX": 22,
-                "StartY": 10,
-                "EndX": 33,
-                "EndY": 10
-              },
-              {
-                "StartX": 22,
-                "StartY": 9,
-                "EndX": 22,
-                "EndY": 10
-              },
-              {
-                "StartX": 22,
-                "StartY": 10,
-                "EndX": 22,
-                "EndY": 11
-              },
-              {
-                "StartX": 20,
-                "StartY": 4,
-                "EndX": 20,
-                "EndY": 11
-              },
-              {
-                "StartX": 20,
-                "StartY": 11,
-                "EndX": 20,
-                "EndY": 12
-              }
-            ],
-            "Name": "C19"
           },
           {
             "Segments": [
@@ -24146,41 +22242,6 @@
             "Segments": [
               {
                 "StartX": -21,
-                "StartY": 4,
-                "EndX": -21,
-                "EndY": -2
-              },
-              {
-                "StartX": -1,
-                "StartY": -2,
-                "EndX": 2,
-                "EndY": -2
-              },
-              {
-                "StartX": -12,
-                "StartY": 1,
-                "EndX": -12,
-                "EndY": -2
-              },
-              {
-                "StartX": -1,
-                "StartY": -2,
-                "EndX": -12,
-                "EndY": -2
-              },
-              {
-                "StartX": -12,
-                "StartY": -2,
-                "EndX": -21,
-                "EndY": -2
-              }
-            ],
-            "Name": "C22"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": -21,
                 "StartY": 12,
                 "EndX": -21,
                 "EndY": 18
@@ -24229,6 +22290,248 @@
               }
             ],
             "Name": "C5"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": -1,
+                "StartY": -2,
+                "EndX": 2,
+                "EndY": -2
+              },
+              {
+                "StartX": -12,
+                "StartY": 1,
+                "EndX": -12,
+                "EndY": -2
+              },
+              {
+                "StartX": -21,
+                "StartY": -2,
+                "EndX": -12,
+                "EndY": -2
+              },
+              {
+                "StartX": -12,
+                "StartY": -2,
+                "EndX": -1,
+                "EndY": -2
+              }
+            ],
+            "Name": "C22"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 33,
+                "StartY": 9,
+                "EndX": 33,
+                "EndY": 10
+              },
+              {
+                "StartX": 20,
+                "StartY": 12,
+                "EndX": 23,
+                "EndY": 12
+              },
+              {
+                "StartX": 20,
+                "StartY": 4,
+                "EndX": 23,
+                "EndY": 4
+              },
+              {
+                "StartX": 20,
+                "StartY": 11,
+                "EndX": 22,
+                "EndY": 11
+              },
+              {
+                "StartX": 32,
+                "StartY": -2,
+                "EndX": 36,
+                "EndY": -2
+              },
+              {
+                "StartX": 36,
+                "StartY": -4,
+                "EndX": 36,
+                "EndY": -2
+              },
+              {
+                "StartX": 36,
+                "StartY": -2,
+                "EndX": 36,
+                "EndY": 10
+              },
+              {
+                "StartX": 22,
+                "StartY": 10,
+                "EndX": 33,
+                "EndY": 10
+              },
+              {
+                "StartX": 33,
+                "StartY": 10,
+                "EndX": 36,
+                "EndY": 10
+              },
+              {
+                "StartX": 22,
+                "StartY": 9,
+                "EndX": 22,
+                "EndY": 10
+              },
+              {
+                "StartX": 22,
+                "StartY": 10,
+                "EndX": 22,
+                "EndY": 11
+              },
+              {
+                "StartX": 20,
+                "StartY": 4,
+                "EndX": 20,
+                "EndY": 11
+              },
+              {
+                "StartX": 20,
+                "StartY": 11,
+                "EndX": 20,
+                "EndY": 12
+              }
+            ],
+            "Name": "C8"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 62,
+                "StartY": 5,
+                "EndX": 65,
+                "EndY": 5
+              },
+              {
+                "StartX": 62,
+                "StartY": 12,
+                "EndX": 65,
+                "EndY": 12
+              },
+              {
+                "StartX": 65,
+                "StartY": 4,
+                "EndX": 65,
+                "EndY": 5
+              },
+              {
+                "StartX": 43,
+                "StartY": 9,
+                "EndX": 43,
+                "EndY": 11
+              },
+              {
+                "StartX": 44,
+                "StartY": 9,
+                "EndX": 44,
+                "EndY": 11
+              },
+              {
+                "StartX": 40,
+                "StartY": 1,
+                "EndX": 40,
+                "EndY": 11
+              },
+              {
+                "StartX": 38,
+                "StartY": 1,
+                "EndX": 40,
+                "EndY": 1
+              },
+              {
+                "StartX": 38,
+                "StartY": -4,
+                "EndX": 38,
+                "EndY": 1
+              },
+              {
+                "StartX": 62,
+                "StartY": 4,
+                "EndX": 62,
+                "EndY": 5
+              },
+              {
+                "StartX": 40,
+                "StartY": 11,
+                "EndX": 43,
+                "EndY": 11
+              },
+              {
+                "StartX": 62,
+                "StartY": 5,
+                "EndX": 62,
+                "EndY": 11
+              },
+              {
+                "StartX": 62,
+                "StartY": 11,
+                "EndX": 62,
+                "EndY": 12
+              },
+              {
+                "StartX": 43,
+                "StartY": 11,
+                "EndX": 44,
+                "EndY": 11
+              },
+              {
+                "StartX": 44,
+                "StartY": 11,
+                "EndX": 62,
+                "EndY": 11
+              }
+            ],
+            "Name": "C33"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 30,
+                "StartY": 5,
+                "EndX": 33,
+                "EndY": 5
+              },
+              {
+                "StartX": 26,
+                "StartY": -10,
+                "EndX": 26,
+                "EndY": 3
+              },
+              {
+                "StartX": 26,
+                "StartY": 3,
+                "EndX": 33,
+                "EndY": 3
+              },
+              {
+                "StartX": 27,
+                "StartY": -10,
+                "EndX": 26,
+                "EndY": -10
+              },
+              {
+                "StartX": 33,
+                "StartY": 3,
+                "EndX": 33,
+                "EndY": 5
+              },
+              {
+                "StartX": 33,
+                "StartY": 5,
+                "EndX": 33,
+                "EndY": 6
+              }
+            ],
+            "Name": "C10"
           }
         ],
         "Name": "Top Circuit",
@@ -24284,6 +22587,1695 @@
             "DefinitionName": "WattWell DAB OM Tx ETD"
           },
           "EnabledScopes": [],
+          "SubcircuitDefinition": {
+            "Id": "995dce03-7069-ae28-6c11-230b95f7ce71",
+            "Devices": [
+              {
+                "LibraryName": "Inductor",
+                "Top": -14,
+                "Left": -5,
+                "Angle": 0,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Leakage inductance",
+                "ID": "acdad50b-d6f3-c3ea-3892-6a84484da1a5",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Leakage inductance",
+                  "Value": "0.000000432957"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Winding",
+                "Top": -14,
+                "Left": 1,
+                "Angle": 0,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary",
+                "ID": "8cf144cf-3218-9f0e-4697-89081e33d8c5",
+                "Parameters": {
+                  "Name": "primary",
+                  "NumberOfTurns": "3.000000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 0",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "NumberOfTurns": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 5",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Electrical Pin",
+                "Top": -10,
+                "Left": -1,
+                "Angle": 0,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Output",
+                "ID": "348906ff-b3ba-96b7-d862-a9a42a194a36",
+                "Parameters": {
+                  "Name": "primary Output"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Electrical Pin",
+                "Top": -14,
+                "Left": -19,
+                "Angle": 0,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Input",
+                "ID": "d47248d3-eac4-016b-da64-e88503bad4e1",
+                "Parameters": {
+                  "Name": "primary Input"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -14,
+                "Left": -11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary AC resistance",
+                "ID": "a694c018-8a46-1450-cae0-86daec0c45cf",
+                "Parameters": {
+                  "Name": "primary AC resistance",
+                  "Value": "0.000625940872"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -14,
+                "Left": -17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 0",
+                "ID": "3534bab1-f3fa-e281-726d-d1b14036704b",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Ladder element 0",
+                  "Value": "0.000000008170"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -17,
+                "Left": -14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 0",
+                "ID": "1ca4bf02-8085-c598-e6ff-827284497419",
+                "Parameters": {
+                  "Name": "primary Ladder element 0",
+                  "Value": "0.002600267308"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -20,
+                "Left": -17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 2",
+                "ID": "43982369-eeb6-3021-6314-cf6d3dc9e72c",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Ladder element 2",
+                  "Value": "0.001003623636"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -23,
+                "Left": -14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 2",
+                "ID": "bb00d5eb-f7ae-d213-3bae-e81abdaeb9e5",
+                "Parameters": {
+                  "Name": "primary Ladder element 2",
+                  "Value": "0.002599923632"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -26,
+                "Left": -17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 4",
+                "ID": "23069b06-4bc5-0365-a2c8-ef76fe9db929",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Ladder element 4",
+                  "Value": "0.001002703418"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -29,
+                "Left": -14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 4",
+                "ID": "3e0e7341-4322-1d92-2734-5a4cf61466d0",
+                "Parameters": {
+                  "Name": "primary Ladder element 4",
+                  "Value": "0.002599339212"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -32,
+                "Left": -17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 6",
+                "ID": "70ffe2df-f7ef-8738-e7d7-ae4ea4031ee7",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Ladder element 6",
+                  "Value": "0.001001410774"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -35,
+                "Left": -14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 6",
+                "ID": "b5cc799f-138c-50cf-c829-8ba68b23b893",
+                "Parameters": {
+                  "Name": "primary Ladder element 6",
+                  "Value": "0.002598781071"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -38,
+                "Left": -17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 8",
+                "ID": "d0f53522-7c9e-0a52-a92b-0175d70af3d3",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "primary Ladder element 8",
+                  "Value": "0.001000387700"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -41,
+                "Left": -14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "primary Ladder element 8",
+                "ID": "6fd55f5f-7802-be13-f4c5-c0564da28056",
+                "Parameters": {
+                  "Name": "primary Ladder element 8",
+                  "Value": "0.002598459423"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Winding",
+                "Top": -8,
+                "Left": 1,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary",
+                "ID": "c2cbb16d-b4d8-8397-3cff-6339b2b1c038",
+                "Parameters": {
+                  "Name": "secondary",
+                  "NumberOfTurns": "26.000000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 0",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "NumberOfTurns": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 5",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Electrical Pin",
+                "Top": -8,
+                "Left": 17,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Input",
+                "ID": "0a62e6e9-797c-8f3f-b65c-ab396bc1e483",
+                "Parameters": {
+                  "Name": "secondary Input"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Electrical Pin",
+                "Top": -4,
+                "Left": 5,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Output",
+                "ID": "f7d82cc8-8d49-1fb9-0b42-49af44940e88",
+                "Parameters": {
+                  "Name": "secondary Output"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "0 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -8,
+                "Left": 5,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary AC resistance",
+                "ID": "f8fa8488-bdfe-487b-8229-bd08f4f4728f",
+                "Parameters": {
+                  "Name": "secondary AC resistance",
+                  "Value": "0.012306585116"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -8,
+                "Left": 11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 0",
+                "ID": "86fc2a0b-7681-01fe-a0ed-a752d9f23426",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "secondary Ladder element 0",
+                  "Value": "0.000000100000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -11,
+                "Left": 14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 0",
+                "ID": "b3ca273b-38e2-0b7b-f641-64b86152090f",
+                "Parameters": {
+                  "Name": "secondary Ladder element 0",
+                  "Value": "0.099999997963"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -14,
+                "Left": 11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 2",
+                "ID": "cefde5eb-d416-745a-096e-1d783ad5d383",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "secondary Ladder element 2",
+                  "Value": "0.100000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -17,
+                "Left": 14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 2",
+                "ID": "4854a6c9-96c7-efdb-1d7e-8b414a70ce50",
+                "Parameters": {
+                  "Name": "secondary Ladder element 2",
+                  "Value": "0.099999997963"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -20,
+                "Left": 11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 4",
+                "ID": "012a1a84-486b-8c91-a43b-a8890faee16c",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "secondary Ladder element 4",
+                  "Value": "0.100000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -23,
+                "Left": 14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 4",
+                "ID": "e934a7ae-9c78-61f9-737b-eeb1e3869ef5",
+                "Parameters": {
+                  "Name": "secondary Ladder element 4",
+                  "Value": "0.099999997963"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -26,
+                "Left": 11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 6",
+                "ID": "50903e46-0d0f-1005-a206-d06f4e2f9bf6",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "secondary Ladder element 6",
+                  "Value": "0.100000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -29,
+                "Left": 14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 6",
+                "ID": "20ec884b-3d83-d7ca-91fc-141a09568141",
+                "Parameters": {
+                  "Name": "secondary Ladder element 6",
+                  "Value": "0.099999997963"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Inductor",
+                "Top": -32,
+                "Left": 11,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 8",
+                "ID": "a7ff1f8c-a6f4-9c8c-6645-c72966caa5e3",
+                "Parameters": {
+                  "Iinit": "0",
+                  "Name": "secondary Ladder element 8",
+                  "Value": "0.100000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Iinit": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "H",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Resistor",
+                "Top": -35,
+                "Left": 14,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "secondary Ladder element 8",
+                "ID": "8bc4386f-7837-33b5-a716-62a3db51ea5b",
+                "Parameters": {
+                  "Name": "secondary Ladder element 8",
+                  "Value": "0.099999997963"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  },
+                  "Value": {
+                    "IsVisible": true,
+                    "Suffix": "\u03A9",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#0081BC"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Linear Core",
+                "Top": 24,
+                "Left": 0,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Core winding column and plates 0",
+                "ID": "3c5513d9-298d-3dc6-08ee-578ef724400b",
+                "Parameters": {
+                  "Area": "0.000367984350",
+                  "Length": "0.053253336608",
+                  "Name": "Core winding column and plates 0",
+                  "RelativePermeability": "2303.500000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Air Gap",
+                "Top": 30,
+                "Left": 0,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Column 0 gap 0",
+                "ID": "2165a445-89b4-65a5-40a9-5fffdaed5d64",
+                "Parameters": {
+                  "Area": "0.000368134000",
+                  "Length": "0.000005000000",
+                  "Name": "Column 0 gap 0",
+                  "RelativePermeability": "1"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Linear Core",
+                "Top": 24,
+                "Left": 18,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Core lateral column 1",
+                "ID": "21116b9e-3997-1c72-38a3-68d9fcbb9935",
+                "Parameters": {
+                  "Area": "0.000367984350",
+                  "Length": "0.044900000000",
+                  "Name": "Core lateral column 1",
+                  "RelativePermeability": "2303.500000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Air Gap",
+                "Top": 30,
+                "Left": 18,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Column 1 gap 0",
+                "ID": "400c5079-5f72-5424-d13b-dcc33321b8bb",
+                "Parameters": {
+                  "Area": "0.000183105000",
+                  "Length": "0.000005000000",
+                  "Name": "Column 1 gap 0",
+                  "RelativePermeability": "1"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Linear Core",
+                "Top": 24,
+                "Left": -24,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Core lateral column 2",
+                "ID": "91b1ba06-d07c-0f27-5754-be383bc68db8",
+                "Parameters": {
+                  "Area": "0.000367984350",
+                  "Length": "0.044900000000",
+                  "Name": "Core lateral column 2",
+                  "RelativePermeability": "2303.500000000000"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Air Gap",
+                "Top": 30,
+                "Left": -24,
+                "Angle": 90,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Column 2 gap 0",
+                "ID": "3f35d0c5-635e-ac19-ef70-cd73f2c7c62e",
+                "Parameters": {
+                  "Area": "0.000183105000",
+                  "Length": "0.000005000000",
+                  "Name": "Column 2 gap 0",
+                  "RelativePermeability": "1"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Area": {
+                    "IsVisible": false,
+                    "Suffix": "m^2 ",
+                    "RelativeLocation": "2 3",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Length": {
+                    "IsVisible": false,
+                    "Suffix": "m",
+                    "RelativeLocation": "2 4",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "Name": {
+                    "IsVisible": true,
+                    "Suffix": "",
+                    "RelativeLocation": "2 -1",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  },
+                  "RelativePermeability": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "2 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 1,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              },
+              {
+                "LibraryName": "Magnetic Ground",
+                "Top": -48,
+                "Left": 2,
+                "Angle": 180,
+                "HF": false,
+                "VF": false,
+                "Disabled": false,
+                "Name": "Magnetic ground",
+                "ID": "d98a3fe5-96c0-81e3-91b1-8a2c32f3a745",
+                "Parameters": {
+                  "Name": "Magnetic ground"
+                },
+                "EnabledScopes": [],
+                "ParametersDisplayAttributes": {
+                  "Name": {
+                    "IsVisible": false,
+                    "Suffix": "",
+                    "RelativeLocation": "0 2",
+                    "UnrotatedWidth": 2,
+                    "UnrotatedHeight": 2,
+                    "FontSize": 12,
+                    "Color": "#B300B3"
+                  }
+                }
+              }
+            ],
+            "Connectors": [
+              {
+                "Segments": [
+                  {
+                    "StartX": 3,
+                    "StartY": -7,
+                    "EndX": 3,
+                    "EndY": -9
+                  }
+                ],
+                "Name": "Connector between winding 0 and winding 1"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": -17,
+                    "StartY": -19,
+                    "EndX": -17,
+                    "EndY": -13
+                  }
+                ],
+                "Name": "Connector between winding primary ladder elements0 and 2"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": -17,
+                    "StartY": -25,
+                    "EndX": -17,
+                    "EndY": -19
+                  }
+                ],
+                "Name": "Connector between winding primary ladder elements2 and 4"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": -17,
+                    "StartY": -31,
+                    "EndX": -17,
+                    "EndY": -25
+                  }
+                ],
+                "Name": "Connector between winding primary ladder elements4 and 6"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": -17,
+                    "StartY": -37,
+                    "EndX": -17,
+                    "EndY": -31
+                  }
+                ],
+                "Name": "Connector between winding primary ladder elements6 and 8"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 11,
+                    "StartY": -13,
+                    "EndX": 11,
+                    "EndY": -7
+                  }
+                ],
+                "Name": "Connector between winding secondary ladder elements0 and 2"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 11,
+                    "StartY": -19,
+                    "EndX": 11,
+                    "EndY": -13
+                  }
+                ],
+                "Name": "Connector between winding secondary ladder elements2 and 4"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 11,
+                    "StartY": -25,
+                    "EndX": 11,
+                    "EndY": -19
+                  }
+                ],
+                "Name": "Connector between winding secondary ladder elements4 and 6"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 11,
+                    "StartY": -31,
+                    "EndX": 11,
+                    "EndY": -25
+                  }
+                ],
+                "Name": "Connector between winding secondary ladder elements6 and 8"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": -17,
+                    "StartY": -43,
+                    "EndX": -17,
+                    "EndY": -37
+                  },
+                  {
+                    "StartX": -17,
+                    "StartY": -43,
+                    "EndX": -11,
+                    "EndY": -43
+                  }
+                ],
+                "Name": "Merge of connector: Connector between winding primary ladder elements8 and 10 with Connector between winding primary ladder elements8 and 10"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 3,
+                    "StartY": -2,
+                    "EndX": 3,
+                    "EndY": -3
+                  },
+                  {
+                    "StartX": 3,
+                    "StartY": -2,
+                    "EndX": 3,
+                    "EndY": 22
+                  }
+                ],
+                "Name": "Merge of connector: Connector between winding 1 and winding 2 with Central column connector to core losses"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 11,
+                    "StartY": -37,
+                    "EndX": 11,
+                    "EndY": -31
+                  },
+                  {
+                    "StartX": 11,
+                    "StartY": -37,
+                    "EndX": 17,
+                    "EndY": -37
+                  }
+                ],
+                "Name": "Merge of connector: Connector between winding secondary ladder elements8 and 10 with Connector between winding secondary ladder elements8 and 10"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 3,
+                    "StartY": -46,
+                    "EndX": 3,
+                    "EndY": -13
+                  },
+                  {
+                    "StartX": 3,
+                    "StartY": -46,
+                    "EndX": 21,
+                    "EndY": -46
+                  },
+                  {
+                    "StartX": 21,
+                    "StartY": -46,
+                    "EndX": 21,
+                    "EndY": 22
+                  },
+                  {
+                    "StartX": 3,
+                    "StartY": -46,
+                    "EndX": -21,
+                    "EndY": -46
+                  },
+                  {
+                    "StartX": -21,
+                    "StartY": -46,
+                    "EndX": -21,
+                    "EndY": 22
+                  }
+                ],
+                "Name": "Merge of connector: Connector between winding 0 and top with Merge of connector: Connector between column 1 and top with Connector between column 2 and top"
+              },
+              {
+                "Segments": [
+                  {
+                    "StartX": 3,
+                    "StartY": 34,
+                    "EndX": 21,
+                    "EndY": 34
+                  },
+                  {
+                    "StartX": 3,
+                    "StartY": 34,
+                    "EndX": -21,
+                    "EndY": 34
+                  }
+                ],
+                "Name": "Merge of connector: Bottom Connector between column 0 and columm 1 with Bottom Connector between column 0 and columm 2"
+              }
+            ],
+            "Name": "WattWell DAB OM Tx ETD",
+            "Variables": [],
+            "VariableFile": ""
+          },
+          "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
           "SubcircuitDefinitionID": "995dce03-7069-ae28-6c11-230b95f7ce71",
           "ParametersDisplayAttributes": {
             "Name": {
