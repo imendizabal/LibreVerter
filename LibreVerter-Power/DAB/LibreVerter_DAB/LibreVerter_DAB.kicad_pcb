@@ -1298,6 +1298,122 @@
 			)
 		)
 	)
+	(footprint "SamacSys_Parts:CAPPRD750W80D1850H4200"
+		(layer "F.Cu")
+		(uuid "504f70e4-9ce7-491f-b1a6-190977fadbec")
+		(at 117 81)
+		(descr "UPW2A102MHD")
+		(tags "Capacitor Polarised")
+		(property "Reference" "C**"
+			(at 4 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "a2d1b85f-53bf-4dbe-8d53-c2689cafa143")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "CAPPRD750W80D1850H4200"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7bb20f6-e404-45b4-9c1d-a5d10f9f8730")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34cb6dee-f15f-49a6-a2a1-43549add9eab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "524058c9-e623-4003-896a-5d82b29bb46b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 3.75 0)
+			(end 3.75 9.25)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "71cd5046-cced-4069-83e3-ae2b531ea720")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 3.75 9.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5ea93aba-a165-4dd0-843b-a338bfe68bd3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b084b0f1-7d3d-45a7-b253-77c3655b491d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "184fdd1a-35c1-4413-81e4-57c9ca5426d8")
+		)
+		(pad "2" thru_hole circle
+			(at 7.5 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "a04e292d-6889-4524-9af8-7a8322dcd152")
+		)
+		(embedded_fonts no)
+		(model "C:\\Users\\Stevie\\Documents\\KiCad\\9.0\\symbols\\SamacSys_Parts.3dshapes\\UPW2A102MHD.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "SamacSys_Parts:TO254P457X1003X2115-3P"
 		(layer "F.Cu")
 		(uuid "50dd5969-fa0c-439c-a0d7-0d3308b3e675")
@@ -1755,6 +1871,122 @@
 		)
 		(embedded_fonts no)
 		(model "C:\\Users\\Stevie\\Documents\\KiCad\\9.0\\symbols\\SamacSys_Parts.3dshapes\\IPP023N10N5XKSA1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:CAPPRD750W80D1850H4200"
+		(layer "F.Cu")
+		(uuid "7760c484-aed2-49a9-9c7d-7599c0927147")
+		(at 144 83.5)
+		(descr "UPW2A102MHD")
+		(tags "Capacitor Polarised")
+		(property "Reference" "C**"
+			(at 4 -3 0)
+			(layer "F.SilkS")
+			(uuid "e92a5866-9c61-451c-bfba-0eefc304e898")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "CAPPRD750W80D1850H4200"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6e266d0-094e-46a7-9449-d345ef22c863")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5e75cca-135f-48de-8be3-cba397f0aa8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e198ca2-af4b-4f43-94c4-5c05a60638de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 3.75 0)
+			(end 3.75 9.25)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fb7c6e3d-468b-430a-9300-dba0ecffa511")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 3.75 9.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "03b92874-bf7b-43af-b0e8-a2afee785327")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8dfa5d25-439e-4a8a-acf1-e81ee3f6b245")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "2fd64a71-8935-4bcf-a9eb-1bfa21c7f49f")
+		)
+		(pad "2" thru_hole circle
+			(at 7.5 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "89a26ff8-2938-409c-b6a9-a67e148326d8")
+		)
+		(embedded_fonts no)
+		(model "C:\\Users\\Stevie\\Documents\\KiCad\\9.0\\symbols\\SamacSys_Parts.3dshapes\\UPW2A102MHD.stp"
 			(offset
 				(xyz 0 0 0)
 			)

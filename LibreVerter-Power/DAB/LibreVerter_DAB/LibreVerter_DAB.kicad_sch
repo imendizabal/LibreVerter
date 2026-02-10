@@ -135,6 +135,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samac:B66362W1014T001"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1357,6 +1518,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samac:UPW2A102MHD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UPW2A102MHD"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD750W80D1850H4200"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-pw.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Nichicon Aluminium Electrolytic Capacitor PW Series 100V dc 1000uF, Through Hole Electrolytic, +/-20% +105C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "42"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nichicon"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UPW2A102MHD"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "647-UPW2A102MHD"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UPW2A102MHD?qs=vtm6YctIBsEhKvWuRIWL3Q%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "UPW2A102MHD"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/upw2a102mhd/nichicon?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "UPW2A102MHD_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1591,6 +1987,18 @@
 		(uuid "13560414-fd99-402b-83fc-2ebc181bdaf0")
 	)
 	(junction
+		(at 358.14 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f28aa15-a16a-4d8a-b576-532d4e630c27")
+	)
+	(junction
+		(at 347.98 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "112d6fa5-2a9b-47bf-b10f-99a1488e9928")
+	)
+	(junction
 		(at 179.07 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1625,6 +2033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5273ba2f-1e77-4d1c-9ac1-55df9a3e37a2")
+	)
+	(junction
+		(at 41.91 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ff8579-fd18-40bb-8295-3366c78f92a8")
 	)
 	(junction
 		(at 100.33 62.23)
@@ -1667,6 +2081,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c68f70-c114-4995-b161-a088d92c81c7")
+	)
+	(junction
+		(at 39.37 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab042d11-952e-487f-95dc-f934823c59bb")
 	)
 	(junction
 		(at 261.62 66.04)
@@ -1789,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "1e63c253-59eb-40ed-9431-69c4dfe1c16e")
+	)
+	(wire
+		(pts
+			(xy 347.98 44.45) (xy 347.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4b1ba5-88b0-4765-9ff0-46889687eb3d")
 	)
 	(wire
 		(pts
@@ -1922,6 +2352,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 81.28) (xy 347.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d46ee9-7cbc-44af-8df7-658f43d8cf6d")
+	)
+	(wire
+		(pts
 			(xy 124.46 24.13) (xy 128.27 24.13)
 		)
 		(stroke
@@ -1932,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 48.26 52.07)
+			(xy 39.37 52.07) (xy 41.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2022,6 +2462,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 77.47) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628ba090-58e2-4e64-aeeb-d0f7eb8758d3")
+	)
+	(wire
+		(pts
 			(xy 135.89 69.85) (xy 179.07 69.85)
 		)
 		(stroke
@@ -2029,6 +2479,16 @@
 			(type default)
 		)
 		(uuid "63baaa33-bce3-4513-9ad3-08e62d6f07e3")
+	)
+	(wire
+		(pts
+			(xy 41.91 52.07) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662051e6-9b54-449a-919f-008cc6c1551b")
 	)
 	(wire
 		(pts
@@ -2119,6 +2579,16 @@
 			(type default)
 		)
 		(uuid "7372a864-b770-418d-b8fb-4a753c6853ba")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f78cbd-53b1-49b3-ac21-8aaac9612736")
 	)
 	(wire
 		(pts
@@ -2222,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 44.45) (xy 358.14 44.45)
+			(xy 297.18 44.45) (xy 347.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2262,6 +2732,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 82.55) (xy 358.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975bb416-4688-47ee-bb7a-8043654b2c87")
+	)
+	(wire
+		(pts
 			(xy 261.62 44.45) (xy 297.18 44.45)
 		)
 		(stroke
@@ -2279,6 +2759,16 @@
 			(type default)
 		)
 		(uuid "a144caeb-3893-4637-9a21-83430c7df404")
+	)
+	(wire
+		(pts
+			(xy 347.98 44.45) (xy 358.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a888fd38-0fae-4031-9c79-86368ce6c386")
 	)
 	(wire
 		(pts
@@ -2309,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "b43a6145-f761-4513-bac0-dbdcd397b4c9")
+	)
+	(wire
+		(pts
+			(xy 358.14 82.55) (xy 358.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b441d7fd-415d-4ab1-9e33-fc9a3d81d43d")
 	)
 	(wire
 		(pts
@@ -2452,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2137ada-ef6e-45e5-9309-8c93ab0cb434")
+	)
+	(wire
+		(pts
 			(xy 135.89 67.31) (xy 135.89 69.85)
 		)
 		(stroke
@@ -2482,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 71.12) (xy 358.14 119.38)
+			(xy 358.14 71.12) (xy 358.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4386,6 +4896,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 347.98 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b97e7ad3-57ec-415f-b0a9-fb53b05c1c65")
+		(property "Reference" "C2"
+			(at 351.79 75.3109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 351.79 77.8509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:CAPPRD750W80D1850H4200"
+			(at 348.9452 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 347.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8667906e-769b-42b9-8ee8-770edf2537c3")
+		)
+		(pin "2"
+			(uuid "790ae4ac-efd8-4f82-bb07-c40943e59567")
+		)
+		(instances
+			(project "LibreVerter_DAB"
+				(path "/64a44516-3f40-443e-9a95-acdd540ffb43"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samac:PAS6322.150NLT")
 		(at 297.18 93.98 0)
 		(unit 1)
@@ -5005,6 +5585,148 @@
 			(project "LibreVerter_DAB"
 				(path "/64a44516-3f40-443e-9a95-acdd540ffb43"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samac:UPW2A102MHD")
+		(at 41.91 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd207ec6-c724-4fa0-b287-d77bea345278")
+		(property "Reference" "C3"
+			(at 45.72 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPW2A102MHD"
+			(at 45.72 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:CAPPRD750W80D1850H4200"
+			(at -54.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-pw.pdf"
+			(at -154.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Nichicon Aluminium Electrolytic Capacitor PW Series 100V dc 1000uF, Through Hole Electrolytic, +/-20% +105C"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "42"
+			(at -354.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -454.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UPW2A102MHD"
+			(at -554.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UPW2A102MHD"
+			(at -654.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UPW2A102MHD?qs=vtm6YctIBsEhKvWuRIWL3Q%3D%3D"
+			(at -754.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "UPW2A102MHD"
+			(at -854.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/upw2a102mhd/nichicon?utm_currency=USD&region=nac"
+			(at -954.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ee697c1-3f09-446b-9e47-0b8b6c5a95a4")
+		)
+		(pin "1"
+			(uuid "6fb438ba-4127-450f-a4e1-0efaab8d9d3f")
+		)
+		(instances
+			(project ""
+				(path "/64a44516-3f40-443e-9a95-acdd540ffb43"
+					(reference "C3")
 					(unit 1)
 				)
 			)

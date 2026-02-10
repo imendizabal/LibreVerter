@@ -18197,7 +18197,7 @@
             "ID": "abf09c40-e384-4f4b-8dc0-80182e110e87",
             "Parameters": {
               "Name": "C4",
-              "Value": "30u",
+              "Value": "1000u",
               "Vinit": "0"
             },
             "EnabledScopes": [
@@ -18431,7 +18431,7 @@
                   "Parameters": {
                     "Name": "T1",
                     "Rdon": "0",
-                    "Ron": "1m",
+                    "Ron": "50m",
                     "Vdf": "0"
                   },
                   "EnabledScopes": [
@@ -21313,7 +21313,7 @@
             "ID": "157551d8-339b-4ec7-91f9-15c81ea54d88",
             "Parameters": {
               "Name": "C1",
-              "Value": "31u",
+              "Value": "100u",
               "Vinit": "0"
             },
             "EnabledScopes": [
@@ -22477,7 +22477,7 @@
             "Parameters": {
               "Name": "D1",
               "Rd": "5m",
-              "Vf": "4.5"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -22523,7 +22523,7 @@
             "Parameters": {
               "Name": "D2",
               "Rd": "5m",
-              "Vf": "4.5"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -22693,7 +22693,7 @@
             "Parameters": {
               "Name": "D3",
               "Rd": "5m",
-              "Vf": "4.5"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -22739,7 +22739,7 @@
             "Parameters": {
               "Name": "D4",
               "Rd": "5m",
-              "Vf": "4.5"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -22839,7 +22839,8 @@
               "Ron": "50m"
             },
             "EnabledScopes": [
-              "Current"
+              "Current",
+              "Voltage"
             ],
             "ParametersDisplayAttributes": {
               "Name": {
@@ -22876,7 +22877,10 @@
               "Name": "T6",
               "Ron": "50m"
             },
-            "EnabledScopes": [],
+            "EnabledScopes": [
+              "Current",
+              "Voltage"
+            ],
             "ParametersDisplayAttributes": {
               "Name": {
                 "IsVisible": true,
@@ -23693,7 +23697,7 @@
             "Parameters": {
               "Name": "D8",
               "Rd": "5m",
-              "Vf": "4.4"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -23739,7 +23743,7 @@
             "Parameters": {
               "Name": "D7",
               "Rd": "5m",
-              "Vf": "4.4"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -23785,7 +23789,7 @@
             "Parameters": {
               "Name": "D6",
               "Rd": "5m",
-              "Vf": "4.4"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
@@ -23831,7 +23835,7 @@
             "Parameters": {
               "Name": "D5",
               "Rd": "5m",
-              "Vf": "4.4"
+              "Vf": "0.9"
             },
             "EnabledScopes": [],
             "ParametersDisplayAttributes": {
