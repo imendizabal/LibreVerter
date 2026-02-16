@@ -2,13 +2,13 @@
 LibreVerter - An open inverter, built for a lifetime. 
 A home inverter, to interface battery systems and PV systems with the UK and EU electricity grids.
 
-The LibreVerter must be:
+The LibreVerter will be:
 - Durable
 - Repairable
 - Open-Source
 
-The main goal of the project is to develop an open source inverter (Hardware and Software).  
-The initial configuration of the project will be a single phase, 2 kW inverter. 
+The main goal of the project is to develop an open source inverter (Hardware and Software)  
+The initial configuration of the project will be a single phase, 2 kW inverter
 
 An important part of the project is to be able to work with different types of switching components (IGBT/MOSFET). Nowadays, we often see that inverters are replaced after 10 years but they keep working or some faulty inverters that are not easily repared because the design is not modular or easy to fix.
 
